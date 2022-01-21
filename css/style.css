@@ -8,6 +8,10 @@
     border-radius: 8px;
     padding: 9px 25px;
 }
+.top-banner{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
 .categories-watch-bg{
     background-color: orange;
 }
