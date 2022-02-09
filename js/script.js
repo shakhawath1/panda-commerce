@@ -37,3 +37,14 @@ document.getElementById('email').addEventListener('keyup', function (event) {
         document.getElementById('submit-btn').setAttribute('disabled', true);
     }
 })
+
+// 9. 
+
+const subscribeSection = document.getElementById('subscribe');
+subscribeSection.addEventListener('dblclick', function () {
+    let x = Math.floor(Math.random() * 256);
+    let y = Math.floor(Math.random() * 256);
+    let z = Math.floor(Math.random() * 256);
+    let bacgColor = "rgb(" + x + ", " + y + ", " + z + ")";
+    subscribeSection.style.backgroundColor = bacgColor;
+})
