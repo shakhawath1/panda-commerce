@@ -26,3 +26,14 @@ for (const bTn of textm) {
         bTn.remove();
     })
 }
+
+// 7.
+document.getElementById('email').addEventListener('keyup', function (event) {
+
+    if (event.target.value == 'email') {
+        document.getElementById('submit-btn').removeAttribute('disabled');
+    }
+    else {
+        document.getElementById('submit-btn').setAttribute('disabled', true);
+    }
+})
