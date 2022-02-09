@@ -13,3 +13,16 @@ const cards = document.getElementsByClassName('card');
 for (const card of cards) {
     card.style.borderRadius = '30px';
 }
+
+// 5. 
+document.getElementById('p-Btnn').addEventListener('click', function () {
+    console.log('Hi!, I am here.');
+});
+
+// 6.
+const textm = document.getElementsByClassName('panda-btn');
+for (const bTn of textm) {
+    bTn.addEventListener('click', function () {
+        bTn.remove();
+    })
+}
